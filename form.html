@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>my form</title>
+  </head>
+  <body>
+    <div class="image">
+    <h1 id="title">Om muruga bakery</h1>
+    <p id="description">Thank you for taking the time to help us improve</p>
+    <form action="#" method="get">
+        <div class="excontainer">
+      <label for="name-field"
+        >Name</label><input
+          type="text"
+          class="name-field"
+          placeholder="Enter name"
+          required
+      />
+      <label for="email-field"
+        >Email</label><input
+          type="email"
+          class="email-field"
+          placeholder="Enter email"
+          required
+      />
+      <label for="age-field"
+        >Age<small>(optional)</small
+        ></label><input
+          type="number"
+          class="age-field"
+          placeholder="Age"
+          min="14"
+          max="99"
+      />
+      <div class="container">
+      <label for="selector">select your mode of business
+        <select name="mode" id="selector">
+            <option value="" selected disabled hidden>select one </option>
+            <option value="1">Bakery</option>
+            <option value="2">Department store</option>
+            <option value="3">whole sale</option>
+            <option value="4">Other</option>
+        </select>
+      </label>
+      </div>
+      <div class="container">
+      <label>Would you recommend our products to others</label>
+      <label><input type="radio" class="inline" checked name="radio">Definitely</label>
+      <label><input type="radio" class="inline" name="radio">Maybe</label>
+      <label><input type="radio" class="inline" name="radio">No</label>
+      </div>
+      <div class="container">
+      <label>what would you like to see improved?</label>
+      <label><input class="inline" type="checkbox" value="varuki">Varuki</label>
+      <label><input class="inline" type="checkbox" value="bread">Breads</label>
+      <label><input class="inline" type="checkbox" value="buns">Buns</label>
+      <label><input class="inline" type="checkbox" value="cake">Cakes</label>
+      <label><input class="inline" type="checkbox" value="biscuits">Biscuits</label>
+      </div>
+      <label>Any comments or suggestions?</label>
+      <textarea name="review" id="comments" rows="3" cols="30" placeholder="Enter your comments here..."></textarea>
+      <input type="submit" value="submit" id="submit">
+
+    </div>
+    </form>
+    </div>
+  </body>
+</html>

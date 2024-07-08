@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins",sans-serif;
+}
+
+body{
+    font-size: 20px;
+    color: #3B2D24;
+    background-image: url(images/ales-krivec-QnNqGoCnBg0-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+#title,#description{
+    text-align: center;
+}
+#description{
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+}
+form{
+    margin: 10px auto;
+    background:hsla(27, 43%, 58%, 0.5);;
+    backdrop-filter: blur(2px);
+    padding: 25px 25px 25px 30px;
+    width: 60vw;
+    max-width: 700px;
+    min-width: 350px;
+    border-radius: 10px;
+}
+
+label{
+    display: block;
+    margin-right: none;
+    
+}
+input,select,textarea{
+    width: 92%;
+    padding: 5px;
+    margin: 2px 0 8px 0;
+    min-height: 2em;
+    border-radius: 5px;
+    border: none;
+}
+.inline{
+    width:unset ;
+    margin-right: 7px;
+    vertical-align: middle;
+}
+.container{
+    margin-bottom: 8px;
+}
+textarea{
+    margin-top: 10px;
+    border-radius: 8px;
+    background:#8F5934  ;
+    min-height: 6.33;
+    resize: vertical;
+    border: none;
+}
+input:focus,select:focus,textarea:focus{
+    outline: none !important;
+    border: none;
+    box-shadow: 0 0 7px #3B2D24;
+}
+input[type="submit"]
+{
+    padding: 5px 0;
+    width: 40%;
+    font-size: 1rem;
+    min-height: 2em;
+    margin: 0 auto;
+}
+input[type="submit"]:hover{
+    background: #3B2D24;
+    color: white;
+}
